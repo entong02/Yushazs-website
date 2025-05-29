@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVL9ggTYyj7D4PZdxxJzN/aL3_r/fWpS_RzFhHlHhE2R4Jp37hZ7A21sQ=="
+          crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="data-container">
+        <h2>Activity Data</h2>
+        <p>Start Time: <span id="start-time">-</span></p>
+        <p>Duration: <span id="duration">-</span></p>
+        <p>Distance: <span id="distance">-</span> km</p>
+    </div>
+    <div id="controls">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn">Pause</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
